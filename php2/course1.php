@@ -4,13 +4,15 @@ $courses = [
 		"title" => "HTML",
         "desc"  => "The language for building web pages",
         "btn"   => "Learn Html",
-        "color" => "#d9eee1",
+        "color" => "rgb(217, 238, 225)", 
+        "link"  => "courselist/html.php"
 	],
 	[	
 		"title" => "CSS",
         "desc"  => "The language for styling web pages",
         "btn"   => "Learn Css",
         "color" => "#fff4a3",
+        "link"  => "courselist/css.php"
 	],
 	[	
 		"title" => "Javascript",
@@ -210,7 +212,7 @@ $courses = [
         max-width: 1200px;
         margin: 40px auto;
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 🔑 2 columns */
+        grid-template-columns: repeat(2, 1fr);
         gap: 40px;
         padding: 20px;
     }
@@ -248,7 +250,6 @@ $courses = [
         background: #000;
     }
 
-    /* 📱 Mobile responsive */
     @media (max-width: 768px) {
         .container {
             grid-template-columns: 1fr;
@@ -258,16 +259,22 @@ $courses = [
 </head>
 
 <body>
-
 <div class="container">
     <?php foreach ($courses as $course): ?>
         <div class="card" style="background: <?= $course['color']; ?>">
             <h1><?= $course['title']; ?></h1>
             <p><?= $course['desc']; ?></p>
-            <button><?= $course['btn']; ?></button>
+
+            <?php if(isset($course['link'])): ?>
+                <a href="<?= $course['link']; ?>">
+                    <button><?= $course['btn']; ?></button>
+                </a>
+            <?php else: ?>
+                <button><?= $course['btn']; ?></button>
+            <?php endif; ?>
+
         </div>
     <?php endforeach; ?>
 </div>
-
 </body>
 </html>

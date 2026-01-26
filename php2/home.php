@@ -83,12 +83,9 @@
 <body>
 
 <header>
-<?php
-$imagePath ="C:\Users\DELL\Downloads\l1.jpeg";
-echo '<img src="' . $imagePath . '" alt="Company Logo">';
-?>
 
 
+    <img src="../assets/LOGO.png" alt="logo">
     <h1>Learning Portal</h1>
     <p>Your Gateway to Knowledge</p>
 </header>
