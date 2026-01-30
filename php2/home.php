@@ -83,8 +83,6 @@
 <body>
 
 <header>
-
-
     <img src="../assets/LOGO.png" alt="logo">
     <h1>Learning Portal</h1>
     <p>Your Gateway to Knowledge</p>

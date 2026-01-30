@@ -94,6 +94,5 @@
 		<a href="https://www.w3schools.com/htmlcss/default.asp">HTML & CSS</a>
 		<a href="https://www.w3schools.com/bash/index.php">BASH</a>
 		<a href="https://www.w3schools.com/rust/index.php">RUST</a>
-		<a href=""></a>
 		</body>
 </html>
