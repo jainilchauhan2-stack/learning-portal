@@ -1,11 +1,12 @@
-</*?php
+</*?php -->
+ob_start();
 session_start();
 
-// if user NOT logged in → redirect to login page
 if (!isset($_SESSION['user'])) {
     header("Location: login.php");
     exit();
-}?>
+}
+?>
 <?php
 $courses = [
 	[	

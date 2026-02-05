@@ -1,3 +1,12 @@
+<?php
+ob_start();
+session_start();
+
+if (!isset($_SESSION['user'])) {
+    header("Location: login.php");
+    exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -91,8 +100,8 @@
 <nav>
     <a href="#">Home</a>
     <a href="course1.php">Courses</a>
-    <a href="login.php">Login</a>
-    <a href="signup.php">Register</a>
+    <!-- <a href="login.php">Login</a> -->
+    <!-- <a href="signup.php">Register</a> -->
 </nav>
 
 <section class="hero">
@@ -120,6 +129,21 @@
 <footer>
     © 2026 Learning Portal. All Rights Reserved.
 </footer>
-
 </body>
 </html>
+<center>
+<html>
+	
+	<form>
+	<input type="submit" name="logout" value="logout">
+	</form>
+	
+</html>
+<?php
+if(isset($_REQUEST['logout']))
+{
+	unset($_SESSION["user"]);
+	header("location:login.php");
+}
+?>
+</center>
