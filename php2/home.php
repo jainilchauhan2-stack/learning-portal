@@ -92,7 +92,7 @@
     <a href="#">Home</a>
     <a href="course1.php">Courses</a>
     <a href="login.php">Login</a>
-    <a href="singup.php">Register</a>
+    <a href="signup.php">Register</a>
 </nav>
 
 <section class="hero">
