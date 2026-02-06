@@ -99,7 +99,7 @@ if (!isset($_SESSION['user'])) {
 
 <nav>
     <a href="#">Home</a>
-    <a href="course1.php">Courses</a>
+    <a href="course1.php">Try it Yourself</a>
     <!-- <a href="login.php">Login</a> -->
     <!-- <a href="signup.php">Register</a> -->
 </nav>

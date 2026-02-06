@@ -14,49 +14,49 @@ $courses = [
         "desc"  => "The language for building web pages",
         "btn"   => "Learn Html",
         "color" => "rgb(217, 238, 225)", 
-        "link"  => "https://www.w3schools.com/html/default.asp"
+        "link"  => "./course_live/html.php"
 	],
 	[	
 		"title" => "CSS",
         "desc"  => "The language for styling web pages",
         "btn"   => "Learn Css",
         "color" => "#fff4a3",
-        "link"  => "https://www.w3schools.com/css/default.asp"
+        "link"  => "./course_live/css.php"
 	],
 	[	
 		"title" => "Javascript",
         "desc"  => "The language for programming web pages",
         "btn"   => "Learn JavaScript",
         "color" => "#fff4a3",
-        "link"  =>"https://www.w3schools.com/js/default.asp"
+        "link"  =>"./course_live/javascript.php"
 	],
 	[	
 		"title" => "SQL",
         "desc"  => "A language for accessing databases",
         "btn"   => "Learn Sql",
         "color" => "#d9eee1",
-        "link"  =>"https://www.w3schools.com/sql/default.asp"
+        "link"  =>"./course_live/sql.php"
 	],
 	[	
 		"title" => "PYTHON",
         "desc"  => "A popular programming language",
         "btn"   => "Learn Python",
         "color" => "#cde6b0",
-        "link"  =>"https://www.w3schools.com/python/default.asp"
+        "link"  =>"./course_live/python.php"
 	],
     [
         "title" => "JAVA",
         "desc"  => "A programming language",
         "btn"   => "Learn PHP",
         "color" => "#ffc0c7",
-        "link"  =>"https://www.w3schools.com/java/default.asp"
+        "link"  =>"./course_live/java.php"
     ],
     [
         "title" => "PHP",
         "desc"  => "A web server programming language",
         "btn"   => "Learn Php",
         "color" => "#ffc0c7",
-        "link"  =>"https://www.w3schools.com/php/default.asp"
+        "link"  =>"./course_live/php.php"
     ],
     [
         "title" => "C",
