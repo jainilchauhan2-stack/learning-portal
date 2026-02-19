@@ -100,7 +100,7 @@ if (!isset($_SESSION['user'])) {
 <nav>
     <a href="#">Home</a>
     <a href="course1.php">Try it Yourself</a>
-    <!-- <a href="login.php">Login</a> -->
+    <a href="./course/course2.php">course</a>
     <!-- <a href="signup.php">Register</a> -->
 </nav>
 
@@ -116,8 +116,12 @@ if (!isset($_SESSION['user'])) {
     </div>
 
     <div class="box">
+        <a href="teachers.php" target="_blank" style="text-decoration: none; color: inherit;">
         <h3>🎓 Expert Teachers</h3>
         <p>Learn from experienced instructors</p>
+        </a>
+        
+        
     </div>
 
     <div class="box">
