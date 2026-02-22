@@ -19,210 +19,210 @@ $courses = [
         "desc"  => "The language for programming web pages",
         "btn"   => "Learn JavaScript",
         "color" => "#fff4a3",
-        "link"  =>"./course_live/javascript.php"
+        "link"  =>"javascript.php"
 	],
 	[	
 		"title" => "SQL",
         "desc"  => "A language for accessing databases",
         "btn"   => "Learn Sql",
         "color" => "#d9eee1",
-        "link"  =>"./course_live/sql.php"
+        "link"  =>"sql.php"
 	],
 	[	
 		"title" => "PYTHON",
         "desc"  => "A popular programming language",
         "btn"   => "Learn Python",
         "color" => "#cde6b0",
-        "link"  =>"./course_live/python.php"
+        "link"  =>"python.php"
 	],
     [
         "title" => "JAVA",
         "desc"  => "A programming language",
         "btn"   => "Learn PHP",
         "color" => "#ffc0c7",
-        "link"  =>"./course_live/java.php"
+        "link"  =>"java.php"
     ],
     [
         "title" => "PHP",
         "desc"  => "A web server programming language",
         "btn"   => "Learn Php",
         "color" => "#ffc0c7",
-        "link"  =>"./course_live/php.php"
+        "link"  =>"php.php"
     ],
     [
         "title" => "C",
         "desc"  => "Mother of all programming language",
         "btn"   => "Learn C",
         "color" => "#cde6b0",
-        "link"  =>"https://www.w3schools.com/c/index.php"
+        "link"  =>"c.php"
     ],
     [
         "title" => "C++",
         "desc"  => "General-purpose,compiled programming language",
         "btn"   => "Learn C++",
         "color" => "#96d4d4",
-        "link"  =>"https://www.w3schools.com/cpp/default.asp"
+        "link"  =>"c++.php"
     ],
     [
         "title" => "C#",
         "desc"  => "General-purpose,compiled programming language",
         "btn"   => "Learn C#",
         "color" => "#e9d2d4",
-        "link"  =>"https://www.w3schools.com/cs/index.php"
+        "link"  =>"C3.php"
     ],
     [
         "title" => "REACT",
         "desc"  => "Core language for react devlopment",
         "btn"   => "Learn React",
         "color" => "#e9d2d4",
-        "link"  =>"https://www.w3schools.com/react/default.asp"
+        "link"  =>"react.php"
     ],
     [
         "title" => "MYSQL",
         "desc"  => "Database management system",
         "btn"   => "Learn Mysql",
         "color" => "#96d4d4",
-        "link"  =>"https://www.w3schools.com/mysql/default.asp"
+        "link"  =>"mysql.php"
     ],
     [
         "title" => "JQUERY",
         "desc"  => "A JS library for developing web pages",
         "btn"   => "Learn Jquery",
         "color" => "#e7e9eb",
-        "link"  =>"https://www.w3schools.com/jquery/default.asp"
+        "link"  =>"jquery.php"
     ],
     [
         "title" => "EXCEL",
         "desc"  => "Database management system",
         "btn"   => "Learn Excel",
         "color" => "#d9eee1",
-        "link"  =>"https://www.w3schools.com/excel/index.php"
+        "link"  =>"excel.php"
     ],
     [
         "title" => "XML",
         "desc"  => "Extensible markup language",
         "btn"   => "Learn Xml",
         "color" => "#d9eee1",
-        "link"  =>"https://www.w3schools.com/xml/default.asp"
+        "link"  =>"xml.php"
     ],
     [
         "title" => "DJANGO",
         "desc"  => "Batteries included framework",
         "btn"   => "Learn Django",
         "color" => "#e7e9eb",
-        "link"  =>"https://www.w3schools.com/django/index.php"
+        "link"  =>"django.php"
     ],
     [
         "title" => "NUMPY",
         "desc"  => "Numerical python",
         "btn"   => "Learn Numpy",
         "color" => "#fca49e",
-        "link"  =>"https://www.w3schools.com/python/numpy/default.asp"
+        "link"  =>"numpy.php"
     ],
     [
         "title" => "PANDAS",
         "desc"  => "Python data analysis library",
         "btn"   => "Learn Pandas",
         "color" => "#38e6e6",
-        "link"  =>"https://www.w3schools.com/python/pandas/default.asp"
+        "link"  =>"pandas.php"
     ],
     [
         "title" => "NODEJS",
         "desc"  => "Javascript runtime enviroment",
         "btn"   => "Learn Nodejs",
         "color" => "#38e6e6",
-        "link"  =>"https://www.w3schools.com/nodejs/default.asp"
+        "link"  =>"nodejs.php"
     ],
     [
         "title" => "DSA",
         "desc"  => "Data structure and algorithms",
         "btn"   => "Learn Dsa",
         "color" => "#fca49e",
-        "link"  =>"https://www.w3schools.com/dsa/index.php"
+        "link"  =>"dsa.php"
     ],
      [
         "title" => "TYPESCRIPT",
         "desc"  => "A typed superset of javascript",
         "btn"   => "Learn Typescript",
         "color" => "#f5ee90",
-        "link"  =>"https://www.w3schools.com/typescript/index.php"
+        "link"  =>"typescript.php"
     ],
      [
         "title" => "SWIFT",
         "desc"  => "A powerful,general-purpose,and open-source programming language devloped of appplce inc",
         "btn"   => "Learn Swift",
         "color" => "#cbddf7",
-        "link"  =>"https://www.w3schools.com/swift/default.asp"
+        "link"  =>"swift.php"
     ],
  [
         "title" => "SASS",
         "desc"  => "A powerful css preprocessor scripting language",
         "btn"   => "Learn Sass",
         "color" => "#cbddf7",
-        "link"  =>"https://www.w3schools.com/sass/default.asp"
+        "link"  =>"sass.php"
     ],
      [
         "title" => "VUE",
         "desc"  => "an open-source JavaScript framework used for building user interfaces (UIs) and single-page applications",
         "btn"   => "Learn Vue",
         "color" => "#f5ee90",
-        "link"  =>"https://www.w3schools.com/vue/index.php"
+        "link"  =>"vue.php"
     ],
     [
         "title" => "SCIPY",
         "desc"  => "an open-source library for the Python programming language used for scientific and technical computing",
         "btn"   => "Learn Scipy ",
         "color" => "#ffc0c7",
-        "link"  =>"https://www.w3schools.com/python/scipy/index.php"
+        "link"  =>"scipy.php"
     ],
     [
         "title" => "AWS",
         "desc"  => "Amazon Web Services",
         "btn"   => "Learn Aws",
         "color" => "#cde6b0",
-        "link"  =>"https://www.w3schools.com/aws/index.php"
+        "link"  =>"aws.php"
     ],
     [
         "title" => "CYBERSCURITY",
         "desc"  => "Python, JavaScript, C/C++, and SQL",
         "btn"   => "Learn Cyberscurity",
         "color" => "#cde6b0",
-        "link"  =>"https://www.w3schools.com/cybersecurity/index.php"
+        "link"  =>"cyberscurity.php"
     ],
     [
         "title" => "DATASCIENCE",
         "desc"  => "Python, R, and SQL",
         "btn"   => "Learn Datascience",
         "color" => "#ffc0c7",
-        "link"  =>"https://www.w3schools.com/datascience/default.asp"
+        "link"  =>"datascience.php"
     ],
     [
         "title" => "INTRO TO PROGRAMMING",
         "desc"  => "Learning the Basics",
         "btn"   => "Learn Intro to programming",
         "color" => "#96d4d4",
-        "link"  =>"https://www.w3schools.com/programming/index.php"
+        "link"  =>"itp.php"
     ],
     [
         "title" => "HTML & CSS",
         "desc"  => "foundational technologies or building blocks of the web",
         "btn"   => "Learn Html & Css",
         "color" => "#e9d2d4",
-        "link"  =>"https://www.w3schools.com/htmlcss/default.asp"
+        "link"  =>"htcs.php"
     ],
     [
         "title" => "BASH",
         "desc"  => "Bourne-again shell",
         "btn"   => "Learn Bash",
         "color" => "#e9d2d4",
-        "link"  =>"https://www.w3schools.com/bash/index.php"
+        "link"  =>"bash.php"
     ],
     [
         "title" => "RUST",
         "desc"  => "Rust is a modern systems programming language",
         "btn"   => "Learn Rust",
         "color" => "#96d4d4",
-        "link"  =>"https://www.w3schools.com/rust/index.php"
+        "link"  =>"rust.php"
     ],
 ];
 ?>

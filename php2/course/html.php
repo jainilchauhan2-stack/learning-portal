@@ -269,7 +269,7 @@
 
 
 <footer>
-    <p>© 2026 HTML Tutorial | All Rights Reserved</p>
+    <p>© 2026 Learning Portal | All Rights Reserved</p>
 </footer>
 
 </body>
