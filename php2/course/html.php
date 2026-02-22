@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Full Tutorial</title>
     <style>
-        /* General Styles */
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
@@ -155,7 +154,6 @@
             margin-top: 30px;
         }
 
-        /* Responsive */
         @media (max-width: 768px) {
             nav a {
                 display: block;

@@ -12,7 +12,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
 header {
     background: linear-gradient(135deg, #dea584, #b7410e);
     color: #fff;
@@ -25,7 +24,6 @@ header {
 header h1 { font-size: 42px; margin-bottom: 10px; }
 header p { font-size: 18px; color: #ffe1d6; }
 
-/* Navigation */
 nav {
     background: #b7410e;
     display: flex;
@@ -45,7 +43,6 @@ nav a {
 }
 nav a:hover { background: #dea584; color: #000; }
 
-/* Sections */
 section {
     background: #fff;
     margin: 30px auto;
@@ -75,7 +72,6 @@ hr {
     border-radius: 2px;
 }
 
-/* Code Blocks */
 pre {
     background: #f0f4f8;
     border-left: 5px solid #b7410e;
@@ -86,10 +82,8 @@ pre {
     box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
 }
 
-/* Lists */
 ul { padding-left: 25px; margin-top: 10px; }
 
-/* Tables */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -104,7 +98,6 @@ th, td {
 th { background: #b7410e; color: #fff; }
 tr:hover td { background: #ffe1d6; }
 
-/* Footer */
 footer {
     background: #b7410e;
     color: #fff;
@@ -115,7 +108,6 @@ footer {
     box-shadow: 0 -5px 15px rgba(0,0,0,0.1);
 }
 
-/* Smooth Scroll */
 html { scroll-behavior: smooth; }
 </style>
 </head>

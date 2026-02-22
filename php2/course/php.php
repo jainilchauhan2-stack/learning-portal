@@ -5,17 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PHP Full Tutorial</title>
 <style>
-/* Basic Reset */
 * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
 
-/* Body */
 body {
     background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
     color: #333;
     line-height: 1.6;
 }
 
-/* Header */
 header {
     background: linear-gradient(135deg, #6e00ff, #4b0082);
     color: #fff;
@@ -29,7 +26,6 @@ header {
 header h1 { font-size: 42px; margin-bottom: 10px; }
 header p { font-size: 18px; color: #e0cfff; }
 
-/* Navigation */
 nav {
     background: #4b0082;
     display: flex;
@@ -50,7 +46,6 @@ nav a {
 }
 nav a:hover { background: #6e00ff; color: #fff; }
 
-/* Sections */
 section {
     background: #fff;
     margin: 30px auto;
@@ -80,7 +75,6 @@ hr {
     border-radius: 2px;
 }
 
-/* Code */
 pre {
     background: #f0f4f8;
     border-left: 5px solid #6e00ff;
@@ -91,10 +85,8 @@ pre {
     box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
 }
 
-/* Lists */
 ul { padding-left: 25px; margin-top: 10px; }
 
-/* Tables */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -109,7 +101,6 @@ th, td {
 th { background: #6e00ff; color: #fff; }
 tr:hover td { background: #e9d6ff; }
 
-/* Footer */
 footer {
     background: #4b0082;
     color: #fff;
@@ -120,7 +111,6 @@ footer {
     box-shadow: 0 -5px 15px rgba(0,0,0,0.1);
 }
 
-/* Smooth Scroll */
 html { scroll-behavior: smooth; }
 </style>
 </head>

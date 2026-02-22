@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Swift Full Tutorial</title>
 <style>
-/* Reset & Body */
+
 * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
 body {
     background: linear-gradient(135deg, #f4f7f8, #e0e7ea);
@@ -13,7 +13,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
 header {
     background: linear-gradient(135deg, #ff7f50, #ff4500);
     color: #fff;
@@ -27,7 +26,6 @@ header {
 header h1 { font-size: 42px; margin-bottom: 10px; }
 header p { font-size: 18px; color: #ffe4b5; }
 
-/* Navigation */
 nav {
     background: #ff4500;
     display: flex;
@@ -48,7 +46,6 @@ nav a {
 }
 nav a:hover { background: #ff7f50; color: #fff; }
 
-/* Sections */
 section {
     background: #fff;
     margin: 30px auto;
@@ -78,7 +75,6 @@ hr {
     border-radius: 2px;
 }
 
-/* Code Blocks */
 pre {
     background: #f0f4f8;
     border-left: 5px solid #ff4500;
@@ -89,10 +85,8 @@ pre {
     box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
 }
 
-/* Lists */
 ul { padding-left: 25px; margin-top: 10px; }
 
-/* Tables */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -107,7 +101,6 @@ th, td {
 th { background: #ff4500; color: #fff; }
 tr:hover td { background: #ffe4b5; }
 
-/* Footer */
 footer {
     background: #ff4500;
     color: #fff;
@@ -118,7 +111,6 @@ footer {
     box-shadow: 0 -5px 15px rgba(0,0,0,0.1);
 }
 
-/* Smooth Scroll */
 html { scroll-behavior: smooth; }
 </style>
 </head>
