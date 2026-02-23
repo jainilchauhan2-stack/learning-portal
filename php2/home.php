@@ -99,9 +99,9 @@ if (!isset($_SESSION['user'])) {
 
 <nav>
     <a href="#">Home</a>
-    <a href="course1.php">Try it Yourself Cource Practice </a>
+    <a href="course1.php">Cource Practice </a>
     <a href="./course/course2.php">Course</a>
-    <!-- <a href="signup.php">Register</a> -->
+    <a href="video.php">Course Video</a>
 </nav>
 
 <section class="hero">
