@@ -232,88 +232,100 @@ $courses = [
 <head>
 <title>Courses</title>
 <style>
-    * {
-        box-sizing: border-box;
-    }
+   *{
+box-sizing:border-box;
+font-family:Segoe UI;
+}
 
-    body {
-        margin: 0;
-        min-height: 100vh;
-        background: linear-gradient(135deg, #1f2933, #111827);
-        font-family: 'Segoe UI', system-ui, sans-serif;
-        color: #111;
-    }
+body{
+margin:0;
+background:linear-gradient(135deg,#1e3c72,#2a5298);
+}
 
-    .container {
-        max-width: 1300px;
-        margin: 60px auto;
-        padding: 20px;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 30px;
-    }
+/* HEADER */
 
-    .card {
-        background: rgba(255, 255, 255, 0.85);
-        backdrop-filter: blur(10px);
-        border-radius: 20px;
-        padding: 40px 30px;
-        text-align: center;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-        transition: transform 0.35s ease, box-shadow 0.35s ease;
-    }
+.header{
+text-align:center;
+color:white;
+padding:40px 20px;
+}
 
-    .card:hover {
-        transform: translateY(-10px) scale(1.02);
-        box-shadow: 0 20px 45px rgba(0,0,0,0.4);
-    }
+.header h1{
+font-size:40px;
+margin-bottom:10px;
+}
 
-    .card h1 {
-        font-size: 32px;
-        margin-bottom: 12px;
-        letter-spacing: 1px;
-        color: #111827;
-    }
+.header p{
+font-size:18px;
+opacity:0.9;
+}
 
-    .card p {
-        font-size: 16px;
-        line-height: 1.6;
-        color: #374151;
-        margin-bottom: 30px;
-    }
+/* GRID */
 
-    .card a {
-        text-decoration: none;
-    }
+.container{
+max-width:1200px;
+margin:auto;
+padding:20px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:13px;
+}
 
-    .card button {
-        padding: 14px 42px;
-        border-radius: 999px;
-        border: none;
-        font-size: 15px;
-        font-weight: 600;
-        background: linear-gradient(135deg, #6366f1, #4f46e5);
-        color: #fff;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
+/* CARD */
 
-    .card button:hover {
-        background: linear-gradient(135deg, #4f46e5, #3730a3);
-        transform: scale(1.05);
-    }
+.card{
+border-radius:15px;
+padding:35px 25px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+transition:0.3s;
+}
 
-    @media (max-width: 600px) {
-        .card {
-            padding: 30px 20px;
-        }
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 20px 40px rgba(0,0,0,0.4);
+}
 
-        .card h1 {
-            font-size: 26px;
-        }
-    }
+.card h1{
+font-size:32px;
+margin-bottom:10px;
+}
+
+.card p{
+font-size:16px;
+margin-bottom:25px;
+color:#333;
+}
+
+/* BUTTON */
+
+.card button{
+padding:12px 35px;
+border:none;
+border-radius:30px;
+font-size:15px;
+font-weight:bold;
+background:#1e3c72;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.card button:hover{
+background:#0f1e3a;
+transform:scale(1.05);
+}
+
+.card a{
+text-decoration:none;
+}
 </style>
 </head>
+
+<div class="header">
+<h1>🚀 Programming Courses</h1>
+<p>Start learning modern technologies today</p>
+</div>
 
 <body>
 <div class="container">
