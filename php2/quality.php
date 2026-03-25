@@ -213,7 +213,7 @@ margin-top:30px;
 </div>
 
 <footer>
-© 2026 LearnHub Learning Portal
+© 2026 Learning Portal
 </footer>
 
 </body>

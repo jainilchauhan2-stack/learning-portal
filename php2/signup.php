@@ -161,8 +161,9 @@ body {
 
     <form method="post">
         <div class="input-box">
-            <i class="fas fa-user"></i>
-            <input type="text" name="name" placeholder="Full Name" required>
+            <i class="fas fa-phone"></i>
+            <input type="tel"  name="mobile" placeholder="Mobile Number" pattern="[0-9]{10}" maxlength="10" required
+>
         </div>
 
         <div class="input-box">
@@ -189,7 +190,7 @@ body {
 <?php
 if(isset($_POST['submit']))
 {
-    $name     = $_POST['name'];
+    $mobile     = $_POST['mobile'];
     $email    = $_POST['email'];
     $username = $_POST['username'];
     $password = $_POST['password'];
@@ -200,8 +201,8 @@ if(isset($_POST['submit']))
     }
 
     $stmt = mysqli_prepare($cn,
-        "INSERT INTO login (name,email,username,password) VALUES (?,?,?,?)");
-    mysqli_stmt_bind_param($stmt,"ssss",$name,$email,$username,$password);
+        "INSERT INTO login (mobile,email,username,password) VALUES (?,?,?,?)");
+    mysqli_stmt_bind_param($stmt,"ssss",$mobile,$email,$username,$password);
     mysqli_stmt_execute($stmt);
 
     $_SESSION['user'] = $username;

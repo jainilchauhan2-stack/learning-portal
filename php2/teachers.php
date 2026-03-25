@@ -3,11 +3,11 @@
 
 // Teachers array with photos
 $teachers = [
-    ["name"=>"Emily Johnson","subject"=>"PHP & Web Development","experience"=>"5 years","bio"=>"Expert in PHP, MySQL, Laravel, and modern web frameworks.","photo"=>"images/teacher1.jpg"],
-    ["name"=>"John Doe","subject"=>"JavaScript & Frontend","experience"=>"8 years","bio"=>"Specialist in JS, React, and modern UI/UX.","photo"=>"images/teacher2.jpg"],
-    ["name"=>"Jane Smith","subject"=>"Database & Backend","experience"=>"10 years","bio"=>"Database expert with MySQL, PostgreSQL, and optimization.","photo"=>"images/teacher3.jpg"],
-    ["name"=>"Michael Brown","subject"=>"Full Stack Development","experience"=>"7 years","bio"=>"Skilled in PHP, NodeJS, and frontend frameworks.","photo"=>"images/teacher4.jpg"],
-    ["name"=>"Sophia Lee","subject"=>"Web Design & UI/UX","experience"=>"6 years","bio"=>"Passionate about creative and user-friendly designs.","photo"=>"images/teacher5.jpg"]
+    ["name"=>"ketan","subject"=>"PHP & Web Development","experience"=>"5 years","bio"=>"Expert in PHP, MySQL, Laravel, and modern web frameworks.","photo"=>"images/teacher1.jpg"],
+    ["name"=>"jainil","subject"=>"JavaScript & Frontend","experience"=>"8 years","bio"=>"Specialist in JS, React, and modern UI/UX.","photo"=>"images/teacher2.jpg"],
+    ["name"=>"harshdeep","subject"=>"Database & Backend","experience"=>"10 years","bio"=>"Database expert with MySQL, PostgreSQL, and optimization.","photo"=>"images/teacher3.jpg"],
+    ["name"=>"yograj","subject"=>"Full Stack Development","experience"=>"7 years","bio"=>"Skilled in PHP, NodeJS, and frontend frameworks.","photo"=>"images/teacher4.jpg"],
+    ["name"=>"jaimin","subject"=>"Web Design & UI/UX","experience"=>"6 years","bio"=>"Passionate about creative and user-friendly designs.","photo"=>"images/teacher5.jpg"]
 ];
 
 // 20 Courses array
@@ -107,7 +107,7 @@ footer {background:#2c3e50; color:#fff; text-align:center; padding:30px 0; margi
 </div>
 
 <footer>
-&copy; <?php echo date("Y"); ?> Learning Portal. All Rights Reserved.
+&copy; <?php echo date("Y"); ?> Learning Portal
 </footer>
 
 </body>

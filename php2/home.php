@@ -27,7 +27,6 @@ box-sizing:border-box;
 font-family:'Segoe UI';
 }
 
-/* HEADER */
 
 header{
 background:#0f3460;
@@ -52,7 +51,6 @@ border-radius:5px;
 cursor:pointer;
 }
 
-/* NAVBAR */
 
 nav{
 background:#16213e;
@@ -72,7 +70,6 @@ nav a:hover{
 color:#00e5ff;
 }
 
-/* HERO SECTION */
 
 .hero{
 height:420px;
@@ -111,7 +108,6 @@ cursor:pointer;
 background:#008891;
 }
 
-/* FEATURES */
 
 .features{
 padding:60px;
@@ -146,7 +142,6 @@ text-decoration:none;
 color:black;
 }
 
-/* COURSE SECTION */
 
 .courses{
 padding:60px;
@@ -174,7 +169,6 @@ transition:0.3s;
 background:#dbe4f0;
 }
 
-/* FOOTER */
 
 footer{
 background:#0f3460;
@@ -209,6 +203,7 @@ Welcome <?php echo $_SESSION['user']; ?>
 <a href="course1.php">Practice</a>
 <a href="./course/course2.php">Courses</a>
 <a href="video.php">Videos</a>
+<a href="notes.php">Notes</a>
 </nav>
 
 <section class="hero">

@@ -230,7 +230,7 @@ $courses = [
 <!DOCTYPE html>
 <html>
 <head>
-<title>Courses</title>
+<title>Courses Live Prc</title>
 <style>
     * {
         box-sizing: border-box;
@@ -302,6 +302,11 @@ $courses = [
         background: linear-gradient(135deg, #4f46e5, #3730a3);
         transform: scale(1.05);
     }
+    .header{
+            text-align:center;
+            color:white;
+            padding:40px 20px;
+        }
 
     @media (max-width: 600px) {
         .card {
@@ -311,11 +316,17 @@ $courses = [
         .card h1 {
             font-size: 26px;
         }
-    }
+}
 </style>
 </head>
 
+<div class="header">
+<h1>🚀 Practice Live Content</h1>
+<p>Best Practices for Live Programming Practice</p>
+</div>
+
 <body>
+
 <div class="container">
     <?php foreach ($courses as $course): ?>
         <div class="card" style="background: <?= $course['color']; ?>">
